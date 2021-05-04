@@ -47,6 +47,10 @@ i {
 	background-color: #6a6a6a;
 }
 
+.br-sp {
+	display: none;
+}
+
 /*---------
 header 
 ----------*/
@@ -260,6 +264,10 @@ footer {
 ----------*/
 @media only screen and (max-width:767px) {
 
+	.br-sp {
+		display: block;
+	}
+
 /*---------
 header
 ----------*/
@@ -320,5 +328,14 @@ TOP
   font-size: 40px;
 	color: #F7F7F7;
 }
+
+/*---------
+Footer
+----------*/
+.footer {
+	text-align: center;
+}
+
+
 
 }
