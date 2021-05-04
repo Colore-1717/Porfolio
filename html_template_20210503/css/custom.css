@@ -224,11 +224,19 @@ PORTFOLIO
 /*---------
 CONTACT
 ----------*/
-.contact {
-	background-color: #F9F9F9;
+.contact-form {
+	display: flex;
+	justify-content: center;
 }
 
-.contact-message {
+
+.end-message {
+  display: none;
+	text-align: center;
+}
+
+.false-message {
+  display: none;
 	text-align: center;
 }
 
